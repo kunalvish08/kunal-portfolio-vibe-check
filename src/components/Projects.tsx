@@ -90,7 +90,7 @@ const Projects = () => {
         "After hours of learning and hands-on practice, I've finally built a responsive food website using HTML, CSS, and Bootstrap. This project helped me understand the power of responsive design and sharpened my frontend skills on my journey to becoming a MERN stack developer.",
       tags: ["HTML", "CSS", "Bootstrap"],
       image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1080&q=80",
-      liveLink: "https://github.com/kunalvish08",
+      liveLink: "https://kunalfoodweb.ccbp.tech/",
       githubLink: "https://github.com/kunalvish08",
       features: [
         "HTML + CSS structure",

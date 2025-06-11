@@ -83,6 +83,23 @@ const Projects = () => {
       liveLink: "#",
       githubLink: "https://github.com/kunalvish08",
     },
+    {
+      id: 4,
+      title: "FoodMuch Responsive Website",
+      description:
+        "After hours of learning and hands-on practice, I've finally built a responsive food website using HTML, CSS, and Bootstrap. This project helped me understand the power of responsive design and sharpened my frontend skills on my journey to becoming a MERN stack developer.",
+      tags: ["HTML", "CSS", "Bootstrap"],
+      image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1080&q=80",
+      liveLink: "https://github.com/kunalvish08",
+      githubLink: "https://github.com/kunalvish08",
+      features: [
+        "HTML + CSS structure",
+        "Bootstrap Grid System",
+        "Color Gradients",
+        "Fully Responsive Layout",
+        "Modern food website design",
+      ],
+    },
   ];
 
   const FeatureList = ({ items, title }: { items: string[], title: string }) => (
@@ -201,7 +218,7 @@ const Projects = () => {
           </div>
           
           {/* Other Projects in Row Layout */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {projects.slice(1).map((project, index) => (
               <div
                 key={project.id}

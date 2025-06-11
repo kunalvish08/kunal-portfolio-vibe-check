@@ -51,7 +51,7 @@ const Projects = () => {
       description:
         "A responsive tourism website showcasing various destinations and travel packages with interactive features.",
       tags: ["HTML", "CSS", "JavaScript"],
-      image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80",
+      image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1080&q=80",
       liveLink: "https://tourismwebkunal.ccbp.tech/",
       githubLink: "https://github.com/kunalvish08",
     },
